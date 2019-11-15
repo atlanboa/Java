@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> <!--맨위에 선언부가 나옴, 시작 끝이 물음표로 끝남 버전은 20년전에도 1.0 지금도 1.0  -->
+<!DOCTYPE MAIL SYSTEM "email.dtd"> 
+<!-- HTML과는 별로 관련 없음 태그는 그 자체에는 별 의미없음 걍 와꾸를 위한 태그임 그러나 XML은 태그 자체가 데이타로서의 의미를 가지는 메타언어임 -->
+<!-- JAVA랑 관련많은 언어임 루트 태그? mail 자식은? 헤더 바디 두개 , 헤더의 자식은? 리시버 센더 타이틀 3개, 그럼 리시버의 자식은? 하나임 데이터도 자식임 -->
+
+
+
+<MAIL>
+	<HEADER>
+		<RECEIVER>cute@naver.com</RECEIVER>
+		<SENDER>diana@korea.com</SENDER>
+		<TITLE>Missing</TITLE>
+	</HEADER>
+	<BODY>Internal DTD example</BODY>
+</MAIL>

@@ -1,0 +1,15 @@
+package broker.dao.test;
+
+import broker.dao.impl.DatabaseImpl;
+
+public class BrokerTest {
+
+	public static void main(String[] args) {
+
+		DatabaseImpl db = DatabaseImpl.getInstance();
+		//메소드 단위테스트 하자
+		
+		
+	}
+
+}

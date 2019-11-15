@@ -1,0 +1,5 @@
+package broker.domain;
+
+public class SharesRec {
+
+}

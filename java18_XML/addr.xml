@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE 주소록 [
+<!ENTITY myemail "sueup@daum.net"> 
+<!ELEMENT 주소록 (정보)*>
+<!ATTLIST 정보 주민번호 ID #REQUIRED>
+<!ELEMENT 이름 (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT 휴대전화 (#PCDATA)>
+]>
+
+<주소록>
+	<정보 주민번호="b111-222">
+		<이름>하승현</이름>
+		<email>&myemail;</email>
+		<휴대전화>010-2790-9706</휴대전화>
+	</정보>
+	<정보 주민번호="a111-222">
+		<이름>홍길동</이름>
+		<email>&myemail;</email>
+		<휴대전화>0104931--07</휴대전화>
+	</정보>
+</주소록>
+
+
