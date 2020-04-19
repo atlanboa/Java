@@ -1,7 +1,0 @@
-
-<!ENTITY myemail "sueup@daum.net"> 
-<!ELEMENT 주소록 (정보)*>
-<!ATTLIST 정보 주민번호 ID #REQUIRED>
-<!ELEMENT 이름 (#PCDATA)>
-<!ELEMENT email (#PCDATA)>
-<!ELEMENT 휴대전화 (#PCDATA)>

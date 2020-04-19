@@ -1,9 +1,0 @@
-package broker.dao.test;
-
-public class BrokerTest {
-
-	public static void main(String[] args) {
-
-	}
-
-}

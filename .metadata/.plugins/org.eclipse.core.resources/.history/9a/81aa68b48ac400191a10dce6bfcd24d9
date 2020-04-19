@@ -1,5 +1,0 @@
-package broker.exception;
-
-public class InvalidTransactionException extends Exception {
-
-}
